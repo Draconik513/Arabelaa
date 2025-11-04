@@ -46,7 +46,7 @@ const HomePage = ({ isIOS }) => {
               webkit-playsinline="true"
               x-webkit-airplay="allow"
               className="w-full h-full object-cover"
-              style={{ transform: 'translateZ(0)' }}
+              style={{ transform: "translateZ(0)" }}
             />
           </div>
         </motion.div>
@@ -64,7 +64,10 @@ const HomePage = ({ isIOS }) => {
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
-              "Selamat Ulang Tahun Bontot ku ! "Untuk bontot yang tercinta, di hari spesialmu ini aku ingin mengucapkan... Terima kasih telah menjadi cahaya dalam hidupku. Setiap detik bisa terus bersama mu adalah anugerah. "
+              "Selamat Ulang Tahun Sayangku! "Untuk Arabelaaku sayang, di hari
+              spesialmu ini aku ingin mengucapkan... Terima kasih telah menjadi
+              cahaya dalam hidupku. Setiap detik bisa terus bersama mu adalah
+              anugerah. "
             </p>
             <p className="mt-4 text-right text-pink-600 font-medium">
               - Fahrul
@@ -82,9 +85,7 @@ const HomePage = ({ isIOS }) => {
             whileHover={{ scale: isIOS ? 1 : 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => navigate("/gift")}
-
             className="relative overflow-hidden bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg text-xl font-bold"
-
           >
             <span className="button-text flex items-center">
               <span className="mr-2">🎁</span>
