@@ -19,9 +19,9 @@ const HomePage = ({ isIOS }) => {
           transition={{ delay: 0.5 }}
           className="mb-8"
         >
-          <p className="text-lg text-pink-600 pt-4">For My Lovely</p>
+          <p className="text-lg text-pink-600 pt-4">For my lovely</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            baobei
+            Arabelaa
           </h1>
         </motion.div>
 

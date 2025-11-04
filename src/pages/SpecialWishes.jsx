@@ -82,7 +82,7 @@ Don't ever stop being the Bǎobèi i know yang hangat, tulus, and always makes m
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Arabelaa Baobei 💖
+                  Arabelaa 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   Only U In My Heart, Honey
