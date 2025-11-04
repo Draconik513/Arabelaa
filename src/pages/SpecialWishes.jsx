@@ -6,21 +6,17 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Hari ini adalah hari spesial... karena orang terspesial di hidup aku lahir hari ini 💗
+Sayangku,
 
-Terima kasih udah hadir di hidup aku bontott akuu 😍
+hari ini tuh bener-bener hari yang spesial banget, soalnya hari ini kamu lahir ke dunia. Aku nggak tau harus mulai dari mana, tapi aku cuma pengin bilang makasih — makasih udah ada di dunia ini, dan makasih udah bikin hidup aku jadi lebih berarti. 🥀
 
-Semoga ulang tahun kali ini bikin kamu tambah bahagia, sehat selalu, sukses buat kedepan nya yuhuuu 🫨
+Aku tahu kadang hidup nggak selalu gampang, banyak hal yang bikin capek, sedih, bahkan ngerasa pengin nyerah. Tapi tolong inget ya, kamu nggak sendirian. Aku di sini. Aku selalu pengin jadi orang yang kamu inget pas kamu lagi down, yang bisa kamu datengin kapan aja tanpa takut dihakimin.
 
-Dan semoga setiap langkah kmu penuh keberkahan, dan setiap impianmu satu per satu menjadi kenyataan. Kamu punya hati yang tulus, senyum yang menenangkan, dan jiwa yang baik, Dunia butuh lebih banyak orang sepertimu. Jadi jangan pernah ngerasa sendiri apalagi nyerah 🫂
+Arabela, kamu tuh punya sesuatu yang beda — cara kamu ngomong, cara kamu ketawa, bahkan cara kamu ngelihat dunia… semuanya punya arti buat aku. Aku suka banget caramu berjuang, caramu nyembunyiin sedih tapi tetep bisa senyum.
 
-Aku pengen kamu tau kalau aku percaya sama kamu sepenuhnya. Kamu kuat, kamu hebat, dan kamu pantas dapetin yang terbaik, jangan pernah ngeraguin dirimu sendiri, kamu itu cahaya dalam hidup banyak orang, termasuk hidup akuu sendiri 🥺
+Aku cuma pengin kamu tahu, aku percaya sama kamu. Kamu bisa, kamu kuat, dan kamu pantas dapetin semua hal baik di dunia ini. Kalau suatu hari nanti kamu ngerasa ragu, inget ya, aku masih di sini, masih berdoa buat kamu, masih sayang kayak pertama kali aku jatuh hati sama kamu. ✨
 
-kalau suatu hari kamu ngerasa ragu atau takut, ingat doa aku ini ”Semoga kamu selalu dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus dari semua arah.Termasuk dariku donaa 💝”
-
-Jangan lupa tetep jadi kamu yang manis, jadi jangan lupa senyum di hari ulang tahun kamuu okee 😋
-
-dari eonni kesayangan kamuu <3
+Jangan pernah berhenti jadi Arabela yang aku kenal — yang hangat, yang tulus, dan yang bikin aku ngerasa cukup cuma dengan kehadirannya. ❤️
   `;
 
   return (
@@ -90,7 +86,7 @@ dari eonni kesayangan kamuu <3
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Bontot 💖
+                  Arabelaa 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   Hanya kamu di hatiku, sayang 🥹

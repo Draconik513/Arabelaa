@@ -34,37 +34,38 @@ const Memories = ({ isIOS }) => {
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            Permintaan maafku di hari ulang tahunmu
+            Permintaan Maafku di Hari Ulang Tahunmu
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>Untuk kamu yang selalu aku tunggu...</strong>
+              💌 <strong>Maaf ya, Sayang...</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              💌 Maaf yaa, bontot ku .. kalau cuma bisa kasih inii wkwk. Next
-              klo udh dateng ke Jawa nanti aku traktir okeee 😆
+              Maaf kalau selama ini aku pernah cuek , terlalu sibuk , atau
+              kurang peka sama perasaanmu . Maaf kalau kadang aku bikin kamu
+              kecewa, salah paham, atau merasa sendiri . Aku gak pernah berniat
+              nyakitin kamu . Semua itu karena aku manusia biasa yang masih
+              belajar mencintaimu dengan lebih baik 🤍.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Jangan lupa tetep balik kesiniiii yaa 🌷 Aku tau aku suka jarang
-              ngabarin, suka ilang-ilangan balas chat kamu 😅 Tapi bukan berarti
-              aku lupa atau berubah.
+              Terima kasih sudah sabar, sudah tetap di sini . Aku akan terus
+              belajar jadi lebih baik lagi... untuk kamu 💗
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              Be happy okeey! ✨ Aku bakalan tetep disini klo kamu kenapa-kenapa
-              🤍
+              🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
             </motion.p>
           </div>
         </motion.div>
@@ -164,7 +165,7 @@ const Memories = ({ isIOS }) => {
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
             🌸 Bunga ini sebagai hadiah dari permintaan maafku, sayang... Tolong
-            diterima ya 🥺❤️
+            diterima ya ❤️
           </motion.p>
         )}
       </motion.div>
