@@ -15,13 +15,13 @@ const Memories = ({ isIOS }) => {
         className="max-w-5xl w-full text-center"
       >
         <h1 className="text-4xl font-bold text-pink-600 mb-8">
-          Kenangan Indah Kita
+          Our Beautiful Memories
         </h1>
 
         <motion.div whileHover={{ scale: isIOS ? 1 : 1.02 }} className="mb-8">
           <img
             src={fotoKenangan}
-            alt="Kita Berdua"
+            alt="Us Together"
             className="w-full max-w-md mx-auto rounded-xl shadow-2xl border-4 border-white"
             style={{ transform: "translateZ(0)" }}
           />
@@ -34,38 +34,39 @@ const Memories = ({ isIOS }) => {
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            Permintaan Maafku di Hari Ulang Tahunmu
+            My Apology on Your Special Day
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>Maaf ya, Sayang...</strong>
+              💌 <strong>Hey, baobeiku... I’m really sorry, okay?</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              Maaf kalau selama ini aku pernah cuek , terlalu sibuk , atau
-              kurang peka sama perasaanmu . Maaf kalau kadang aku bikin kamu
-              kecewa, salah paham, atau merasa sendiri . Aku gak pernah berniat
-              nyakitin kamu . Semua itu karena aku manusia biasa yang masih
-              belajar mencintaimu dengan lebih baik 🤍.
+              I’m sorry if sometimes I acted cold, too busy, or not sensitive
+              enough to your feelings. Sorry if I ever made you feel
+              disappointed, misunderstood, or even alone. I never meant to hurt
+              you, honestly. I’m just a human still learning how to love you
+              better 🤍.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Terima kasih sudah sabar, sudah tetap di sini . Aku akan terus
-              belajar jadi lebih baik lagi... untuk kamu 💗
+              Thank you for staying patient, for still being here no matter
+              what. I promise I’ll keep learning to be a better version of me...
+              for you 💗
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
+              🙏🏻 I’m sorry, and thank you for still believing in me.
             </motion.p>
           </div>
         </motion.div>
@@ -78,7 +79,7 @@ const Memories = ({ isIOS }) => {
           style={{ WebkitTapHighlightColor: "transparent" }}
         >
           <span className="button-text">
-            {flowerBloom ? "Tutup Bunga" : "Buka Bunga Cinta"}
+            {flowerBloom ? "Close the Love Flower" : "Open the Love Flower 🌸"}
           </span>
         </motion.button>
 
@@ -164,8 +165,8 @@ const Memories = ({ isIOS }) => {
             transition={{ delay: 2.2 }}
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
-            🌸 Bunga ini sebagai hadiah dari permintaan maafku, sayang... Tolong
-            diterima ya ❤️
+            🌸 This flower is my little apology gift, baobeiku... please accept
+            it with love ❤️
           </motion.p>
         )}
       </motion.div>

@@ -19,9 +19,9 @@ const HomePage = ({ isIOS }) => {
           transition={{ delay: 0.5 }}
           className="mb-8"
         >
-          <p className="text-lg text-pink-600 pt-4">Untuk yang tersayang</p>
+          <p className="text-lg text-pink-600 pt-4">For My Lovely</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            Arabelaa
+            baobei
           </h1>
         </motion.div>
 
@@ -58,16 +58,23 @@ const HomePage = ({ isIOS }) => {
           className="space-y-6"
         >
           <h2 className="text-3xl font-bold text-pink-600">
-            Selamat Ulang Tahun Sayang !
+            Happy Birthday baobei !
           </h2>
           <p className="text-xl text-pink-600">🎉 09 November 2025 🎉</p>
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
-              "Selamat Ulang Tahun Sayangku! "Untuk Arabelaaku sayang, di hari
-              spesialmu ini aku ingin mengucapkan... Terima kasih telah menjadi
-              cahaya dalam hidupku. Setiap detik bisa terus bersama mu adalah
-              anugerah. "
+              "Happy Birthday, Baobeiku! For my dearest baobeiku, on your
+              special day I just wanna say... thank you for being the light in
+              my life. Every second I get to be with you is truly a blessing.
+              Like, seriously—sometimes I still can't believe how lucky I am to
+              have you. You're that one person who makes even the simplest
+              moments feel so magical. You're my calm, my chaos, my home. And
+              today, I just wanna remind you that you're loved more than words
+              can say. So yeah, happy birthday once again, baobeiku — keep
+              shining, keep smiling, and keep being the beautiful soul that you
+              are. You'll always be my favorite reason to stay grateful every
+              single day. 💖✨"
             </p>
             <p className="mt-4 text-right text-pink-600 font-medium">
               - Fahrul
@@ -89,7 +96,7 @@ const HomePage = ({ isIOS }) => {
           >
             <span className="button-text flex items-center">
               <span className="mr-2">🎁</span>
-              Buka Hadiah Spesial
+              Open Special Gift
               <span className="ml-2">🎁</span>
             </span>
           </motion.button>

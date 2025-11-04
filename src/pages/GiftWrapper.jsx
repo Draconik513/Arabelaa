@@ -85,7 +85,7 @@ const GiftWrapper = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                <p className="text-xl text-pink-600">Klik untuk membuka hadiah spesial!</p>
+                <p className="text-xl text-pink-600">Click to open your special gift!</p>
               </motion.div>
             </motion.div>
           )}
@@ -111,7 +111,7 @@ const GiftWrapper = () => {
             >
               🎁
             </motion.div>
-            <p className="text-2xl text-pink-600 font-bold">Membuka hadiah...</p>
+            <p className="text-2xl text-pink-600 font-bold">Unwrapping your gift...</p>
           </motion.div>
         )}
       </motion.div>
@@ -124,16 +124,16 @@ const GiftWrapper = () => {
             exit={{ opacity: 0 }}
             className="mt-4 p-4 bg-white rounded-lg shadow-md max-w-md text-center"
           >
-            <p className="text-pink-600">Hadiah belum bisa dibuka sampai 09 November 2025!</p>
-            <p className="text-sm text-gray-500 mt-2">Tunggu sampai hari ulang tahun tiba ❤️</p>
+            <p className="text-pink-600">The gift can't be opened until November 9, 2025!</p>
+            <p className="text-sm text-gray-500 mt-2">Please wait until the birthday arrives ❤️</p>
           </motion.div>
         )}
       </AnimatePresence>
 
       {!countdownFinished && (
         <div className="mt-8 p-4 bg-white bg-opacity-80 rounded-lg shadow-md max-w-md text-center">
-          <p className="text-pink-600">Hadiah ini terkunci sampai:</p>
-          <p className="text-xl font-bold text-purple-600">09 November 2025</p>
+          <p className="text-pink-600">This gift is locked until:</p>
+          <p className="text-xl font-bold text-purple-600">November 9, 2025</p>
         </div>
       )}
     </div>

@@ -6,17 +6,13 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Sayangku,
+Bǎobèi,
 
-hari ini tuh bener-bener hari yang spesial banget, soalnya hari ini kamu lahir ke dunia. Aku nggak tau harus mulai dari mana, tapi aku cuma pengin bilang makasih — makasih udah ada di dunia ini, dan makasih udah bikin hidup aku jadi lebih berarti. 🥀
-
-Aku tahu kadang hidup nggak selalu gampang, banyak hal yang bikin capek, sedih, bahkan ngerasa pengin nyerah. Tapi tolong inget ya, kamu nggak sendirian. Aku di sini. Aku selalu pengin jadi orang yang kamu inget pas kamu lagi down, yang bisa kamu datengin kapan aja tanpa takut dihakimin.
-
-Arabela, kamu tuh punya sesuatu yang beda — cara kamu ngomong, cara kamu ketawa, bahkan cara kamu ngelihat dunia… semuanya punya arti buat aku. Aku suka banget caramu berjuang, caramu nyembunyiin sedih tapi tetep bisa senyum.
-
-Aku cuma pengin kamu tahu, aku percaya sama kamu. Kamu bisa, kamu kuat, dan kamu pantas dapetin semua hal baik di dunia ini. Kalau suatu hari nanti kamu ngerasa ragu, inget ya, aku masih di sini, masih berdoa buat kamu, masih sayang kayak pertama kali aku jatuh hati sama kamu. ✨
-
-Jangan pernah berhenti jadi Arabela yang aku kenal — yang hangat, yang tulus, dan yang bikin aku ngerasa cukup cuma dengan kehadirannya. ❤️
+Hari ini tuh literally super special, karena ini adalah hari dimana kamu lahir ke dunia. Aku nggak tau harus mulai dari mana, but I just wanna say thank you banget, thank you udah ada di dunia ini dan bikin hidup aku jadi jauh lebih berarti 🌹.
+Aku tahu kadang hidup tuh nggak gampang, banyak hal yang bikin capek, sedih, atau bahkan pengin nyerah. But please remember, kamu nggak pernah sendirian. Aku di sini. Aku selalu pengen jadi orang yang kamu ingat pas lagi down, the one you can turn to anytime without worrying about being judged.
+Bǎobèi, kamu tuh punya sesuatu yang beda. Cara kamu ngomong, ketawa, even cara kamu ngeliat dunia... itu semua punya makna buat aku. Aku suka banget cara kamu berjuang, how you hide your sadness but still manage to smile.
+Aku cuma pengen kamu tau, aku believe banget sama kamu. Kamu kuat, kamu bisa, dan kamu pantas dapetin semua hal baik yang ada di dunia ini. Kalau suatu hari kamu ngerasa ragu atau down, just remember aku masih di sini, masih doa buat kamu, masih sayang kamu kayak waktu pertama kali aku jatuh hati. ✨
+Don't ever stop being the Bǎobèi i know yang hangat, tulus, and always makes me feel enough just by being you❤
   `;
 
   return (
@@ -66,7 +62,7 @@ Jangan pernah berhenti jadi Arabela yang aku kenal — yang hangat, yang tulus, 
             className="relative overflow-hidden bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg"
           >
             <span className="button-text">
-              {showHeart ? "Sembunyikan Cintaku" : "Lihat Cintaku"}
+              {showHeart ? "Hide My Heart" : "See My Love"}
             </span>
           </motion.button>
         </div>
@@ -86,10 +82,10 @@ Jangan pernah berhenti jadi Arabela yang aku kenal — yang hangat, yang tulus, 
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Arabelaa 💖
+                  Arabelaa Baobei 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
-                  Hanya kamu di hatiku, sayang 🥹
+                  Only U In My Heart, Honey
                 </div>
               </motion.div>
             </motion.div>
