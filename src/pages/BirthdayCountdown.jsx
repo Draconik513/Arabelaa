@@ -14,7 +14,7 @@ const BirthdayCountdown = ({ isIOS }) => {
   const [replyMessage, setReplyMessage] = useState("");
   const navigate = useNavigate();
 
-  const targetDate = new Date("2025-10-27T00:00:00");
+  const targetDate = new Date("2025-11-09T01:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
