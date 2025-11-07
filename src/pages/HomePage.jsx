@@ -60,7 +60,7 @@ const HomePage = ({ isIOS }) => {
           <h2 className="text-3xl font-bold text-pink-600">
             Happy Birthday baobei !
           </h2>
-          <p className="text-xl text-pink-600">🎉 09 November 2025 🎉</p>
+          <p className="text-xl text-pink-600">🎉 09 November 2005 🎉</p>
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
